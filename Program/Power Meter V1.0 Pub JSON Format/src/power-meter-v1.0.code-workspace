@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "Power Meter Inverter V1.0 ESP8266",
+			"path": ".."
+		},
+		{
+			"name": "esp8266_P10_Display_POW_system",
+			"path": "../../esp8266_P10_Display_POW_system"
+		}
+	],
+	"settings": {}
+}
