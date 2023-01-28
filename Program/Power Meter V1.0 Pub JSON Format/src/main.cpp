@@ -9,9 +9,9 @@
 #include <PubSubClient.h>
 #include <LiquidCrystal_I2C.h>
 
-const char *SSID = "Padi_solution";
-const char *PASS = "s0lut10npadinet";
-const char *MQTT_SERVER = "192.168.8.140";
+const char *SSID = "xxxxx";
+const char *PASS = "xxxxx";
+const char *MQTT_SERVER = "xxx.xxx.xxx.xxx";
 
 const char *MQTT_POW_CMD = "pow/data/cmnd";
 const char *MQTT_POW_STAT = "pow/data/stat";
@@ -27,9 +27,9 @@ const char *MQTT_POW_RELAY_STAT = "pow/relay/stat";
 
 const char *MQTT_STATUS = "pow/status/cmnd";
 
-const char *MQTT_CLIENT_ID = "POW_Philoin-xx01";
-const char *MQTT_USERNAME = "homeassistant";
-const char *MQTT_PASSWORD = "iecohnee7Ipoh6aizeechopheeth5eeCah6dai8eing2aih2Iefe4nig1EeRaej2";
+const char *MQTT_CLIENT_ID = "POW_xxx";
+const char *MQTT_USERNAME = "xxxx";
+const char *MQTT_PASSWORD = "ixxxxx";
 
 #define relay 0
 
@@ -45,9 +45,9 @@ unsigned long currentMillisPublishPowerMeter;
 unsigned long startMillismenu;
 unsigned long currentMillismenu;
 
-IPAddress ip(192, 168, 8, 188);
-IPAddress gateway(192, 168, 8, 188); // Sesuaikan dengan gateway AP
-IPAddress subnet(255, 255, 255, 0);  // Sesuaikan dengan subnet AP
+IPAddress ip(xxx, xxx, xxx, xxx);
+IPAddress gateway(xxx, xxx, xxx, xxx); // Sesuaikan dengan gateway AP
+IPAddress subnet(xxx, xxx, xxx, xxx);  // Sesuaikan dengan subnet AP
 
 WiFiClient espClient;
 PubSubClient client(espClient);
